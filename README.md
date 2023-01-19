@@ -32,6 +32,8 @@ Here are a couple of resources to help you write in markdown.
 We want to be able to eventually display all our markdown data in an aesthetic way on the front end using JavaScript.
 In order to do so, we want our data in a more relevant json format. Have a look at [this](https://marked.js.org/) library to do so.
 
+_*`Note`*_ You will notice that the main functionality for marked.js is to convert markdown to html so you will need to delve a little into the docs to find the relevant markdown to json functionality 👀
+
 ## Part 3 - Party bag (database) to store our treats (json)
 
 Now we have some parsed data, we need a way for it to persist so we can access the lesson whenever we like.
