@@ -1,0 +1,28 @@
+{
+  "name": "passtheparsedcell",
+  "version": "1.0.0",
+  "description": "Welcome to Project Phase 🎉",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "setup-dbs": "psql -f ./db/setup.sql",
+    "seed": "node ./db/seeds/run-seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrMcSnail/PassTheParsedCell.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrMcSnail/PassTheParsedCell/issues"
+  },
+  "homepage": "https://github.com/MrMcSnail/PassTheParsedCell#readme",
+  "dependencies": {
+    "marked": "^4.2.12",
+    "pg": "^8.9.0",
+    "pg-format": "^1.0.4"
+  }
+}
